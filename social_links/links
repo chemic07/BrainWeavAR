@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    
+    public void OpenInstagram()
+    {
+        Application.OpenURL("https://www.instagram.com/rajlodhi09/");
+    }
+
+    public void OpenYoutube()
+    {
+        Application.OpenURL("https://www.youtube.com/@chemicgaming4121");
+    }
+
+    public void OpenWebsite()
+    {
+        Application.OpenURL("https://www.shanportfolio.com/");
+    }
+
+    public void OpenDiscord()
+    {
+        Application.OpenURL("https://discord.gg/5NgZVjDR");
+    }
+
+   
+}
